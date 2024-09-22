@@ -1,2 +1,3 @@
 py = 'python'
-print('Olá, isso é um código em {}'.format(py))
+print(f'Olá, isso é um código em {py}')
+# Saída formatada (com f-strings)
