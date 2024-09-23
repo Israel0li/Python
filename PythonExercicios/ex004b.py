@@ -1,0 +1,11 @@
+n = input('Digite algo: ')
+print(f'O Tipo Primitivo desse valor é {type(n)}')
+print(f'É Somente Espaços? {n.isspace()}')
+print(f'É Numérico? {n.isnumeric()}')
+print(f'É Alfabético? {n.isalpha()}')
+print(f'É Alfanumérico? {n.isalnum()}')
+print(f'Esta em MAIÚSCULO? {n.isupper()}')
+print(f'Esta em minusculo? {n.islower()}')
+print(f'Esta Capitalizada? {n.istitle()}')
+# Capitalizada, Se a primeira letra estiver em MAIÚSCULA e o resto em minusculas.
+# Saída formatada (com f-strings)

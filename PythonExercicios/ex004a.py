@@ -1,1 +1,11 @@
-n1 = input('Digite algo: ')
+n = input('Digite algo: ')
+print('O Tipo Primitivo desse valor é {}'.format(type(n)))
+print('É Somente Espaços? {}'.format(n.isspace()))
+print('É Numérico? {}'.format(n.isnumeric()))
+print('É Alfabético? {}'.format(n.isalpha()))
+print('É Alfanumérico? {}'.format(n.isalnum()))
+print('Esta em MAIÚSCULO? {}'.format(n.isupper()))
+print('Esta em minusculo? {}'.format(n.islower()))
+print('Esta Capitalizada? {}'.format(n.istitle()))
+# Capitalizada, Se a primeira letra estiver em MAIÚSCULA e o resto em minusculas.
+# Saída formatada com format()
